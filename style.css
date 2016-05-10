@@ -18,4 +18,6 @@ li {
   margin: 100px;
   list-style: none;
   transform: rotate(-3deg);
+  background: tomato;
+
 }

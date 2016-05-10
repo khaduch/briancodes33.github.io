@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+ul {
+}
+
+li {
+  margin: 100px;
+  list-style: none;
+  transform: rotate(-3deg);
+}

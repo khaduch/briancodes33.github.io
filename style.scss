@@ -1,0 +1,72 @@
+$blue: #003744;
+$green: #1A554F;
+$orange: #FDA856;
+$tan: #F6FE91;
+
+
+
+body {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+}
+
+h2 {
+}
+
+
+/*  NAVIGATION STYLES */
+nav {
+  background: $blue;
+  h2 {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #fff;
+  }
+  ul {
+    margin-top: 20px;
+    margin-right: 20px;
+  li {
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+    a {
+      color: white;
+      text-decoration: none;
+     &:hover {
+      color: $orange;
+      transition: 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}
+/* END NAVIGATION */
+
+.about-content {
+  // background: $orange;
+  img {
+    // margin-top: 20px;
+  }
+    h2 {
+      // margin-top: 20px;
+    }
+}
+
+.project-content {
+  border: 1px solid black;
+  background: $blue;
+}
+
+.project {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.skills-content {
+  background: $green;
+}
+
+.contact-content {
+  background: $tan;
+}

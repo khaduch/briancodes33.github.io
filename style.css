@@ -1,7 +1,42 @@
+body {
+  font-family: 'Helvetica Neue';
+  font-weight: 300; }
+
+/*  NAVIGATION STYLES */
 nav {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-}
+  background: #003744; }
+  nav h2 {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #fff; }
+  nav ul {
+    margin-top: 20px;
+    margin-right: 20px; }
+    nav ul li {
+      padding: 10px;
+      list-style-type: none;
+      display: inline-block; }
+      nav ul li a {
+        color: white;
+        text-decoration: none; }
+        nav ul li a:hover {
+          color: #FDA856;
+          transition: 0.2s ease-in-out; }
+
+/* END NAVIGATION */
+.project-content {
+  border: 1px solid black;
+  background: #003744; }
+
+.project {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px; }
+
+.skills-content {
+  background: #1A554F; }
+
+.contact-content {
+  background: #F6FE91; }
+
+/*# sourceMappingURL=style.css.map */

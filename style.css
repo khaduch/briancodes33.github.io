@@ -1,6 +1,8 @@
 body {
   font-family: 'Helvetica Neue';
-  font-weight: 300; }
+  font-weight: 300;
+  color: #0e2e2b;
+  font-weight: 400; }
 
 /*  NAVIGATION STYLES */
 nav {
@@ -24,19 +26,43 @@ nav {
           transition: 0.2s ease-in-out; }
 
 /* END NAVIGATION */
+.about-content {
+  background: img; }
+
 .project-content {
   border: 1px solid black;
-  background: #003744; }
+  background: #003744;
+  height: 500px; }
+  .project-content h2 {
+    color: white; }
 
 .project {
-  border: 1px solid black;
+  border: 1px solid white;
+  margin-top: 3px;
   height: 200px;
   width: 200px; }
 
 .skills-content {
-  background: #1A554F; }
+  height: 300px; }
+  .skills-content h3 {
+    margin-top: 40px; }
 
 .contact-content {
-  background: #F6FE91; }
+  background: #003744;
+  color: #fff; }
+  .contact-content #right-inline {
+    color: #fff; }
+
+.about-content, .project-content, .skills-content {
+  margin-top: 10px; }
+
+footer {
+  height: 40px; }
+  footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 5px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,9 +8,12 @@ $tan: #F6FE91;
 body {
   font-family: 'Helvetica Neue';
   font-weight: 300;
+  color: darken($green, 10%);
+  font-weight: 400;
 }
 
 h2 {
+  
 }
 
 
@@ -43,7 +46,7 @@ nav {
 /* END NAVIGATION */
 
 .about-content {
-  // background: $orange;
+  background:
   img {
     // margin-top: 20px;
   }
@@ -55,18 +58,46 @@ nav {
 .project-content {
   border: 1px solid black;
   background: $blue;
+  height: 500px;
+  h2 {
+  color: white;
+}
 }
 
 .project {
-  border: 1px solid black;
+  border: 1px solid white;
+  margin-top: 3px;
   height: 200px;
   width: 200px;
 }
 
 .skills-content {
-  background: $green;
+  height: 300px;
+  h3 {
+    margin-top: 40px;
+  }
 }
 
 .contact-content {
-  background: $tan;
+  background: $blue;
+  color: #fff;
+  #right-inline {
+    color: #fff;
+  }
+}
+
+.about-content, .project-content, .skills-content,  {
+  margin-top: 10px;
+}
+
+footer {
+  height: 40px;
+
+  li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
 }

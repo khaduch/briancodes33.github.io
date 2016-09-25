@@ -4,16 +4,17 @@ $orange: #FDA856;
 $tan: #F6FE91;
 
 
-
 body {
   font-family: 'Helvetica Neue';
   font-weight: 300;
-  color: darken($green, 10%);
+  color: white;
   font-weight: 400;
+  background: $green;
 }
 
 h2 {
-  
+  color: white;
+  margin-top: 23px;
 }
 
 
@@ -26,7 +27,7 @@ nav {
     color: #fff;
   }
   ul {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-right: 20px;
   li {
     padding: 10px;
@@ -37,7 +38,8 @@ nav {
       text-decoration: none;
      &:hover {
       color: $orange;
-      transition: 0.2s ease-in-out;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
         }
       }
     }
@@ -46,35 +48,37 @@ nav {
 /* END NAVIGATION */
 
 .about-content {
-  background:
   img {
-    // margin-top: 20px;
+    border-radius: 5%;
   }
-    h2 {
-      // margin-top: 20px;
-    }
 }
 
+
 .project-content {
-  border: 1px solid black;
   background: $blue;
   height: 500px;
+  margin-bottom: 20px;
+  .row {
+  height: 200px;
+  padding: 5px;
+  }
   h2 {
   color: white;
-}
+  }
 }
 
 .project {
-  border: 1px solid white;
-  margin-top: 3px;
+  margin: 5px;
   height: 200px;
-  width: 200px;
+  border: 1px $orange inset;
+  box-shadow: -1px -1px 7px $tan;
 }
+
 
 .skills-content {
   height: 300px;
-  h3 {
-    margin-top: 40px;
+  .skill {
+    margin-top: 75px;
   }
 }
 
@@ -90,6 +94,20 @@ nav {
   margin-top: 10px;
 }
 
+label {
+  color: #fff;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    border: none;
+    background: transparent;
+    /*background-color: blue;*/
+  }
+
 footer {
   height: 40px;
 
@@ -100,4 +118,8 @@ footer {
   font-size: 20px;
   margin-top: 5px;
 }
+  p {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 }

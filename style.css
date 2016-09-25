@@ -1,8 +1,13 @@
 body {
   font-family: 'Helvetica Neue';
   font-weight: 300;
-  color: #0e2e2b;
-  font-weight: 400; }
+  color: white;
+  font-weight: 400;
+  background: #1A554F; }
+
+h2 {
+  color: white;
+  margin-top: 23px; }
 
 /*  NAVIGATION STYLES */
 nav {
@@ -12,7 +17,7 @@ nav {
     margin-top: 15px;
     color: #fff; }
   nav ul {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-right: 20px; }
     nav ul li {
       padding: 10px;
@@ -23,29 +28,33 @@ nav {
         text-decoration: none; }
         nav ul li a:hover {
           color: #FDA856;
-          transition: 0.2s ease-in-out; }
+          cursor: pointer;
+          transition: 0.3s ease-in-out; }
 
 /* END NAVIGATION */
-.about-content {
-  background: img; }
+.about-content img {
+  border-radius: 5%; }
 
 .project-content {
-  border: 1px solid black;
   background: #003744;
-  height: 500px; }
+  height: 500px;
+  margin-bottom: 20px; }
+  .project-content .row {
+    height: 200px;
+    padding: 5px; }
   .project-content h2 {
     color: white; }
 
 .project {
-  border: 1px solid white;
-  margin-top: 3px;
+  margin: 5px;
   height: 200px;
-  width: 200px; }
+  border: 1px #FDA856 inset;
+  box-shadow: -1px -1px 7px #F6FE91; }
 
 .skills-content {
   height: 300px; }
-  .skills-content h3 {
-    margin-top: 40px; }
+  .skills-content .skill {
+    margin-top: 75px; }
 
 .contact-content {
   background: #003744;
@@ -56,6 +65,17 @@ nav {
 .about-content, .project-content, .skills-content {
   margin-top: 10px; }
 
+label {
+  color: #fff; }
+
+*:focus {
+  outline: none; }
+
+input[type="text"] {
+  border: none;
+  background: transparent;
+  /*background-color: blue;*/ }
+
 footer {
   height: 40px; }
   footer li {
@@ -64,5 +84,8 @@ footer {
     padding: 10px;
     font-size: 20px;
     margin-top: 5px; }
+  footer p {
+    margin-top: 20px;
+    margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */

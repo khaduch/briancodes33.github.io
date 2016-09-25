@@ -49,7 +49,8 @@ nav {
 
 .about-content {
   img {
-    border-radius: 5%;
+    border: none;
+    background-blend-mode: multiply;
   }
 }
 
@@ -71,14 +72,12 @@ nav {
   margin: 5px;
   height: 200px;
   border: 1px $orange inset;
-  box-shadow: -1px -1px 7px $tan;
 }
 
 
 .skills-content {
   height: 300px;
-  .skill {
-    margin-top: 75px;
+  .skill-slider {
   }
 }
 
@@ -117,9 +116,15 @@ footer {
   padding: 10px;
   font-size: 20px;
   margin-top: 5px;
-}
+  }
   p {
     margin-top: 20px;
     margin-left: 10px;
+  }
+  a {
+    color: $orange;
+  &:hover {
+      color: $tan;
+    }
   }
 }

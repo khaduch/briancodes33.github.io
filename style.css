@@ -33,7 +33,8 @@ nav {
 
 /* END NAVIGATION */
 .about-content img {
-  border-radius: 5%; }
+  border: none;
+  background-blend-mode: multiply; }
 
 .project-content {
   background: #003744;
@@ -48,13 +49,10 @@ nav {
 .project {
   margin: 5px;
   height: 200px;
-  border: 1px #FDA856 inset;
-  box-shadow: -1px -1px 7px #F6FE91; }
+  border: 1px #FDA856 inset; }
 
 .skills-content {
   height: 300px; }
-  .skills-content .skill {
-    margin-top: 75px; }
 
 .contact-content {
   background: #003744;
@@ -87,5 +85,9 @@ footer {
   footer p {
     margin-top: 20px;
     margin-left: 10px; }
+  footer a {
+    color: #FDA856; }
+    footer a:hover {
+      color: #F6FE91; }
 
 /*# sourceMappingURL=style.css.map */

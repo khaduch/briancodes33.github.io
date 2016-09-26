@@ -1,8 +1,9 @@
 var count = 1;
 var loopCount = 0;
 var elementCount = 4;
-disp();
+
 function disp() {
+
 	if (loopCount++ > 2005 * elementCount ) {
         $(".skill-slider").fadeIn(2000);
         return;
@@ -13,3 +14,5 @@ function disp() {
   count = (count % elementCount) + 1;
   console.log(count);
 }
+
+disp();

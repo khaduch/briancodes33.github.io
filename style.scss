@@ -87,6 +87,7 @@ nav {
 .skills-content {
   height: 300px;
   .skill-slider {
+    margin-top: 80px;
   }
 }
 
@@ -106,13 +107,19 @@ label {
   color: #fff;
 }
 
-*:focus {
-    outline: none;
-}
+  input[type=text], select {
+      background-color: transparent;
+      border: 1px solid $orange;
+      color: black;
+  }
 
-  input[type=text] {
-      background-color: $tan;
-      color: $blue;
+  input:focus {outline: none;}
+
+
+  textarea {
+    background-color: transparent;
+    border: 1px solid $orange;
+    color: $blue;
   }
 
 footer {
@@ -128,6 +135,7 @@ footer {
   p {
     margin-top: 20px;
     margin-left: 10px;
+    color: $orange;
   }
   a {
     color: $orange;

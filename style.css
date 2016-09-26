@@ -46,10 +46,14 @@ nav {
   .project-content h2 {
     color: white; }
 
-.project {
-  margin: 5px;
-  height: 200px;
-  border: 1px #FDA856 inset; }
+.project:hover {
+  background: #1A554F;
+  opacity: 0.8;
+  color: black; }
+.project h3 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px; }
 
 .skills-content {
   height: 300px; }
@@ -69,10 +73,9 @@ label {
 *:focus {
   outline: none; }
 
-input[type="text"] {
-  border: none;
-  background: transparent;
-  /*background-color: blue;*/ }
+input[type=text] {
+  background-color: #F6FE91;
+  color: #003744; }
 
 footer {
   height: 40px; }

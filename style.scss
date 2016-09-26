@@ -69,9 +69,18 @@ nav {
 }
 
 .project {
-  margin: 5px;
-  height: 200px;
-  border: 1px $orange inset;
+  // height: 200px;
+  // border: 1px $orange inset;
+  &:hover {
+    background: $green;
+    opacity: 0.8;
+    color: black;
+  }
+  h3 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
 }
 
 
@@ -101,10 +110,9 @@ label {
     outline: none;
 }
 
-input[type="text"] {
-    border: none;
-    background: transparent;
-    /*background-color: blue;*/
+  input[type=text] {
+      background-color: $tan;
+      color: $blue;
   }
 
 footer {
